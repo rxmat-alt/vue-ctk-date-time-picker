@@ -12,7 +12,7 @@ export default {
   overlay: { type: Boolean, default: false },
   inline: { type: Boolean, default: false },
   position: { type: String, default: null },
-  locale: { type: String, default: getDefaultLocale() },
+  locale: { type: String, default: 'en' },
   formatted: { type: String, default: 'llll' },
   format: { type: String, default: 'YYYY-MM-DD hh:mm a' },
   outputFormat: { type: String, default: null },
